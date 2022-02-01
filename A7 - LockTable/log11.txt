@@ -1,0 +1,4932 @@
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+Ref(int) v2
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+Ref(int) v1
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+Ref(int) v2
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+Ref(int) v2
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+int x
+
+SymTable: 
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+int q
+
+SymTable: 
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+(new v1 20)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+(new v2 30)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+newLock(x)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))))
+lock(x)
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+newLock(q)
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+lock(x)
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))))
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+lock(x)
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+lock(x)
+wH(v1 = rH(v1) - 1)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+wH(v1 = rH(v1) - 1)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+wH(v1 = rH(v1) - 1)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))))
+lock(q)
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+unlock(x)
+
+wH(v1 = rH(v1) - 1)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+lock(q)
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))))
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+lock(q)
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+lock(q)
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+unlock(x)
+
+wH(v1 = rH(v1) * 10)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+
+unlock(q)
+
+wH(v2 = rH(v2) * 10)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+lock(x)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+
+unlock(q)
+
+wH(v2 = rH(v2) + 5)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+print(rH(v1))
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(q)
+print(rH(v2))
+unlock(q)
+
+unlock(x)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v2))
+unlock(q)
+
+lock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> 10
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+unlock(q)
+
+print(rH(v2))
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> 10
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+305
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> 10
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+305
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+Ref(int) v2
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+Ref(int) v1
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+Ref(int) v2
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+Ref(int) v2
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int x
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+int x
+
+SymTable: 
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int q
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+int q
+
+SymTable: 
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v1 20)
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+(new v1 20)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+(new v2 30)
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+(new v2 30)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(x)
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+newLock(x)
+
+SymTable: 
+q -> 0
+x -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+fork((fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))));(lock(x);(wH(v1 = rH(v1) * 10);unlock(x)))))
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+newLock(q)
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))))
+lock(x)
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+newLock(q)
+
+SymTable: 
+q -> 0
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+lock(x)
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+fork((lock(x);(wH(v1 = rH(v1) - 1);unlock(x))))
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+lock(x)
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+lock(x)
+wH(v1 = rH(v1) - 1)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+fork((fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))));(lock(q);(wH(v2 = rH(v2) * 10);unlock(q)))))
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+wH(v1 = rH(v1) - 1)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+wH(v1 = rH(v1) - 1)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))))
+lock(q)
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+unlock(x)
+
+wH(v1 = rH(v1) - 1)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+lock(q)
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+fork((lock(q);(wH(v2 = rH(v2) + 5);unlock(q))))
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+lock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+lock(q)
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+lock(q)
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 12
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+wH(v1 = rH(v1) * 10)
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+unlock(x)
+
+wH(v1 = rH(v1) * 10)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+wH(v2 = rH(v2) * 10)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 19
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+unlock(x)
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+
+unlock(q)
+
+wH(v2 = rH(v2) * 10)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 30
+ 
+LockTable: 
+1 -> 11
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 13
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+no operation
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+13
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+lock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+wH(v2 = rH(v2) + 5)
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+lock(x)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+
+unlock(q)
+
+wH(v2 = rH(v2) + 5)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 300
+ 
+LockTable: 
+1 -> -1
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+
+unlock(q)
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> 14
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+print(rH(v1))
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+14
+ExeStack: 
+
+SymTable: 
+x -> 1
+q -> 2
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(q)
+print(rH(v2))
+unlock(q)
+
+unlock(x)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> 10
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+lock(q)
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v2))
+unlock(q)
+
+lock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(rH(v2))
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> 10
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+unlock(q)
+
+print(rH(v2))
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> 10
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+unlock(q)
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+305
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> 10
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+q -> 2
+x -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+
+Out: 
+190
+305
+
+FileTable: 
+
+Heap: 
+1 -> 190
+2 -> 305
+ 
+LockTable: 
+1 -> -1
+2 -> -1
+
+---------------------------------END-----------------------------------
+
+
+

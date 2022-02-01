@@ -1,0 +1,1912 @@
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+(new v 20)
+Ref(Ref(int)) a
+(new a v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+(new v 20)
+Ref(Ref(int)) a
+(new a v)
+print(v)
+print(a)
+
+SymTable: 
+v -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+Ref(Ref(int)) a
+(new a v)
+print(v)
+print(a)
+
+(new v 20)
+
+SymTable: 
+v -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+Ref(Ref(int)) a
+(new a v)
+print(v)
+print(a)
+
+SymTable: 
+v -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+(new a v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: 
+v -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+(new a v)
+print(v)
+print(a)
+
+SymTable: 
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+print(v)
+print(a)
+
+(new a v)
+
+SymTable: 
+a -> (0, Ref(int))
+v -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+print(v)
+print(a)
+
+SymTable: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> (1, int)
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+
+print(a)
+
+print(v)
+
+SymTable: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> (1, int)
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+
+print(a)
+
+SymTable: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out: 
+(1, int)
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> (1, int)
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+4
+ExeStack: 
+
+SymTable: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Out: 
+(1, int)
+(2, Ref(int))
+
+FileTable: 
+
+Heap: 
+1 -> 20
+2 -> (1, int)
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+string varf
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+varf='fisier.txt'
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(open_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+int varc
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+string varf
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+varf='fisier.txt'
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(open_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+int varc
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+string varf
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+varf='fisier.txt'
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(open_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+int varc
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+string varf
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+varf='fisier.txt'
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+varf='fisier.txt'
+
+SymTable: 
+varf -> ''
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(open_file 'varf')
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(open_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+int varc
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+int varc
+
+SymTable: 
+varf -> 'fisier.txt'
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+(read_file 'varf')
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+(read_file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+print(varc)
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+print(varc)
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+(close file 'varf')
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+3
+ExeStack: 
+
+SymTable: 
+varf -> 'fisier.txt'
+varc -> 0
+
+Out: 
+0
+0
+
+FileTable: 
+
+Heap: 
+
+---------------------------------END-----------------------------------
+
+
+

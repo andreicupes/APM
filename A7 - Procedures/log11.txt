@@ -1,0 +1,5795 @@
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure sum([a, b])(int v;(v=a + b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure product([a, b])(int v;(v=a * b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int w
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+v=2
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+w=5
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+call sum([v * 10, w])
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+call product([v, w])
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+call product([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+int v
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+v=a * b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+call sum([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure sum([a, b])(int v;(v=a + b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure product([a, b])(int v;(v=a * b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int w
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+v=2
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+w=5
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+call sum([v * 10, w])
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+call product([v, w])
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+call product([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+int v
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+v=a * b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+call sum([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure sum([a, b])(int v;(v=a + b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure product([a, b])(int v;(v=a * b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int w
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+v=2
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+w=5
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+call sum([v * 10, w])
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+call product([v, w])
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+call product([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+int v
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+v=a * b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+call sum([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure sum([a, b])(int v;(v=a + b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure product([a, b])(int v;(v=a * b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int w
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+v=2
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+w=5
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+call sum([v * 10, w])
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+call product([v, w])
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+call product([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+int v
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+v=a * b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+call sum([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure sum([a, b])(int v;(v=a + b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+procedure product([a, b])(int v;(v=a * b;print(v))))
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+procedure product([a, b])(int v;(v=a * b;print(v))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int v
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+int w
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+int w
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+v=2
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+v=2
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+w=5
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+w=5
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+call sum([v * 10, w])
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+call sum([v * 10, w])
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+print(v)
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+fork((call product([v, w]);fork(call sum([v, w]))))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+10
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+call product([v, w])
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+call product([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+int v
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+v=a * b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+v=a * b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+fork(call sum([v, w]))
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+11
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+call sum([v, w])
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+int v
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+int v
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+v=a + b
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+v=a + b
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+print(v)
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+return
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
+---------------------------------START----------------------------------------------
+Thread ID:
+12
+ExeStack: 
+
+SymTable: 
+
+
+
+Out: 
+25
+2
+10
+7
+
+FileTable: 
+
+Heap: 
+ProcTable: 
+product -> [a, b]=(int v;(v=a * b;print(v)))
+sum -> [a, b]=(int v;(v=a + b;print(v)))
+
+---------------------------------END-----------------------------------
+
+
+
